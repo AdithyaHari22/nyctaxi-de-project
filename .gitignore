@@ -1,3 +1,6 @@
+# Ignore Mage AI autosaved block versions
+.file_versions/
+
 # Ignore local shell and editor state
 .ipython/
 .mage_data/
