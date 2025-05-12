@@ -1,3 +1,15 @@
+# Ignore local shell and editor state
+.ipython/
+.mage_data/
+.ssh/
+.ssh_tunnel/
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.python_history
+.wget-hsts
+
 # Byte-compiled / optimized files
 __pycache__/
 *.py[cod]
