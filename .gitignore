@@ -1,0 +1,32 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+
+# Mage AI internals
+.cache/
+mage_ai.db*
+mage_ai_logs/
+
+# GCP credentials & configs
+io_config.yaml
+*.json              # if you ever keep JSON key files
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
