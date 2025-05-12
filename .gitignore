@@ -18,9 +18,9 @@ venv/
 mage_ai.db*
 mage_ai_logs/
 
-# GCP credentials & configs
+#credentials & configs
 io_config.yaml
-*.json              # if you ever keep JSON key files
+*.json             
 
 # IDEs and editors
 .vscode/
