@@ -1,14 +1,33 @@
-.DS_Store
-.file_versions
-.gitkeep
-.log
-.logs/
-.mage_temp_profiles
-.preferences.yaml
-.variables/
+# Byte-compiled / optimized files
 __pycache__/
-docker-compose.override.yml
-logs/
-mage-ai.db
-mage_data/
-secrets/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+
+# Mage AI internals
+.cache/
+mage_ai.db*
+mage_ai_logs/
+
+# GCP credentials & configs
+io_config.yaml
+*.json
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
