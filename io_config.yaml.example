@@ -41,14 +41,14 @@ default:
   # Google
   GOOGLE_SERVICE_ACC_KEY:
     type: service_account
-    project_id:  "de-nyc-taxi"
-    private_key_id: "48039e316e28a8d76a9be9a862213ef38047e7f1"
-    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDARy1DNulHUp2v\nORH6maOOASur1kqsJvGA4qdB9JLxzDJEQRHpq1SGBjCrbr3QkOMKmB6NEaZmKj8F\n96+ae29RlNzj6D7rOib/yokMZX9pxggElVnezrkAWswlRHmDcUfR+23bs17dN540\nITep79ExFjGMkMUtOLWPCfBhoh7weBEOZnAiO+PJWUcQhDvtqMM/c/qF+YIu6M0P\nVOh6jotlTcqrIQ5XVROI8MUGM1mbtFQufqhaRAwCauojlqtAG5MEPct7Vwgxe6qh\nFouFmEk3Ufg8Y+TFoSsniVGPMEabxAIyazJjHmE4o+3em4e+p9wmP3yPFCxdHf1k\nK35+5FZhAgMBAAECggEABy7Bfe4fscE1exWz2mYsihdOGn8IpBICWduy/s+UQQHC\nlkfN/lTJoAYRgbNDK6GLRwU0DaCtVB9bjQKvJc4FnwkOEATIJkEHsuzNyM+ZKQoz\nmM7myrVzNhRY5ZgqEo3D7o/+Dxkjao/I0k60BcjxH2x3pmDEFN02SbpyfIXcslk2\nenXK317hlXVUsTCitxjvcwEJ04mHuOklvCZ9oja1T3UpNwWtwN38ZQxOMxFRt9aR\nP0a0+F1+iN+/L1A91nXWN6DqbwGiTQ2XO/6u/pgBT8hZuEu6BjCoS+x/XUe6QQfc\n3B3K/Gzvvi8shgmsOCCBwkFczBfmJZqKSoqu6dPLiQKBgQD9UZhToh/npthfTj7h\nC/aOqcTho1BfLGD/u053kldPmWDAPrbmHAbUDylRLz6Gq4hhD6iOQyjIIgauYRT/\nTXawHz5xjqkhRki5//7HxxlAlh2/zO7ZqMnSJ+lWmBqt4jAUzzk7i/gW0oRJLJma\nzjBbYW+y8bDIEeeJly16NynZNQKBgQDCUC7RxP49dE1WaDiSoHtxFWpGOaQ2XHSH\nZLKVJ0T23m/+gEJFPpeKSmOL9LQ5K/1WmTQDW0ngy25aW2j+x4s2tZ0+FSzH16xq\n//HTMPIsSsvg8uwYdCvf+E8r370X9Qwjw9o0GC57Sg5H3nsO5IFGTiYsNavMJaLC\nz46NR9iZ/QKBgDo/7wUcPLXp+ctAlNjvBU0c4Lb59NtNuyhTC+IW9pjJLiRGx4v2\nWeOdcOTINlqFSyD2ls3Px6rtmBe1HzzttSMerB80rNOH8+VBZnbN45KkckbOewX1\n+CKpJtDQvSHK5z+BvylgMDYfRmgFJ3UfgKMirqq5ROtcop9S8hQuZyMZAoGAHZA7\nf1jcYZc3SQU0TkKyZUMf1y1f6ZFpfUv5y62c1X6ERZFYA9cBEV4+BQYnAWfK9Ij8\nm+IgvF3XHVI5CEJt0NYS5WYtWP5cUi88qKgSwGBk4oWzHAlYv4u05/TzfRigTzS2\nFyTytXlP8OlNibeEX6D2N9W2nKnBOKiBhMdAkjUCgYBu7s1vT4hmwyUXThlYQ4gO\ndCOY7SNgnxr9MY/UrtJK0cCdSeL6gKS1PK5g9XWere6KOAohxNT39rxtICSiocFS\nCO9+eENwRJKhVsErEM2DWakmD5yrRuYUhUVykG93HG1dr5EVEH9UebJfUnt4O8JH\nL7Dqn7YVdv2R5M1g0pvr2w==\n-----END PRIVATE KEY-----\n"
-    client_email: "nyctaxi-dataengineering-projec@de-nyc-taxi.iam.gserviceaccount.com"
-    auth_uri: "https://accounts.google.com/o/oauth2/auth"
-    token_uri: "https://oauth2.googleapis.com/token"
-    auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs"
-    client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/nyctaxi-dataengineering-projec%40de-nyc-taxi.iam.gserviceaccount.com"
+    project_id:  your-gcp-project
+    private_key_id: your private key id
+    private_key: your private key
+    client_email: your service account
+    auth_uri: your auth uri
+    token_uri: your token uri
+    auth_provider_x509_cert_url: your auth cert
+    client_x509_cert_url: your client cert
   GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/path/to/your/service/account/key.json"
   GOOGLE_LOCATION: US # Optional
   # MongoDB
