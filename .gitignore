@@ -1,3 +1,14 @@
+# Remove stray home‐dir and temp files
+.bash_logout
+.gitconfig
+
+# Remove auto‐generated pipeline metadata (not source code)
+metadata.yaml
+
+# Remove pip bootstrap (not needed)
+requirements.txt
+EOF
+
 # Ignore Mage AI autosaved block versions
 .file_versions/
 
